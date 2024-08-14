@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Inter", sans-serif;
+}
+body {
+  background-color: #141721;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+#elements {
+  width: 99vw;
+  height: 90vh;
+}
+.glow {
+  width: 99vw;
+  height: 90vh;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.login-container {
+  background-color: #2b233983;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  border-radius: 17px;
+  justify-content: center;
+  align-items: center;
+}
+.logintext {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 900;
+  padding: 20px;
+}
+.inputs {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  margin: 20px;
+}
+.input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #f9065d;
+  font-size: 30px;
+}
+.input::placeholder {
+  color: #d65989;
+  margin: 5px;
+  font-size: 20px;
+}
+.submitbtn {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin: 40px;
+  font-size: 25px;
+  background: linear-gradient(to right, #ff065f, #38b6db);
+  width: 100%;
+  border-radius: 10px;
+  padding: 20px 0px;
+  text-transform: uppercase;
+}
+.bottomtext {
+  color: #fff;
+}
+.bottomtext span {
+  color: #ff689e;
+}
