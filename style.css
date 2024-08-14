@@ -49,12 +49,16 @@ body {
   background-color: transparent;
   border: none;
   border-bottom: 2px solid #f9065d;
-  font-size: 30px;
+  font-size: 20px;
+  color: #d65989;
 }
 .input::placeholder {
   color: #d65989;
   margin: 5px;
   font-size: 20px;
+}
+.input:focus{
+  outline: none;
 }
 .submitbtn {
   color: #fff;
@@ -69,6 +73,7 @@ body {
   border-radius: 10px;
   padding: 20px 0px;
   text-transform: uppercase;
+  cursor: pointer;
 }
 .bottomtext {
   color: #fff;
